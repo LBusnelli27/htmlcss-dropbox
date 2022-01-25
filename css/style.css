@@ -27,6 +27,10 @@
     display: inline;
 }
 
+.block {
+    display: block;
+}
+
 .inline-block {
     display: inline-block;
 }
@@ -37,6 +41,10 @@
 
 .width-jumbo {
     width: 90%;
+}
+
+.width-main {
+    width: 80%;
 }
 
 .btn-blue {
@@ -54,8 +62,20 @@
     background-color: #b4d0e7;
 }
 
+a:visited {
+    color: #0061ff;
+}
+
 h1 {
     font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.2rem;
 }
 
 
@@ -121,9 +141,90 @@ h1 {
 
 
 /* MAIN */
+main {
+    margin-top: 400px;
+}
 /* Container Plan Dropbox Business */
-.container-jumbotron {
+.section-title {
+    margin-bottom: 50px;
+}
 
+.radio {
+    margin-bottom: 50px;
+}
+
+.input-radio {
+    margin-right: 20px;
+}
+
+.subscription-card-container {
+    text-align: center;
+}
+
+.subscription-card {
+    width: 27%;
+    margin-right: 50px;
+}
+
+.card-target {
+    padding: 10px 0px;
+    border: 1px solid #E4E4E4;
+}
+
+.card-target .fa-user {
+    margin-right: 5px;
+}
+
+.card-desc {
+    padding: 30px;
+    border: 1px solid #E4E4E4;
+}
+
+.card-desc h2 {
+    margin-bottom: 20px;
+}
+
+.price {
+    font-weight: 700;
+}
+
+.price span {
+    font-weight: 500;
+    color: #6f7d8b;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.card-desc p {
+    margin-bottom: 20px;
+}
+
+.card-desc button {
+    width: 95%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.underline {
+    border-top: 1px solid #E4E4E4;
+    width: 20%;
+    margin-bottom: 50px;
+}
+
+.card-desc h3 {
+    margin-bottom: 20px;
+}
+
+.card-desc ul{
+    list-style: none;
+}
+
+.card-desc ul li {
+    padding: 10px;
+}
+
+.card-desc .fa-check {
+    color: #0061ff;
 }
 
 
