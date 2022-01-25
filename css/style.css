@@ -11,12 +11,20 @@
     clear: both;
 }
 
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 
 /* HEADER */
 /* Container Navbar */
 .container-navbar {
 
+}
+
+.logo-container {
+    
 }
 
 
