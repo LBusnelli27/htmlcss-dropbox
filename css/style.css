@@ -31,6 +31,33 @@
     display: inline-block;
 }
 
+.margin-auto {
+    margin: 0 auto;
+}
+
+.width-jumbo {
+    width: 90%;
+}
+
+.btn-blue {
+    border-style: none;
+    padding: 7px 20px;
+    background-color: #0061ff;
+    color: #ffffff;
+}
+
+.btn-big {
+    font-size: 1.1rem;
+}
+
+.bg-lightblue {
+    background-color: #b4d0e7;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
 
 /* HEADER */
 /* Container Navbar */
@@ -56,17 +83,39 @@
     margin-left: 20px;
 }
 
-.btn-blue {
-    border-style: none;
-    padding: 7px 20px;
-    background-color: #0061ff;
-    color: #ffffff;
-}
-
 
 /* Container Jumbotron */
-.container-jumbotron {
+.title-jumbo {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
 
+.text-jumbo {
+    width: 30%;
+    margin-right: 10%;
+    padding-bottom: 10%;
+}
+
+.text-jumbo p {
+    margin-bottom: 30px;
+}
+
+.text-jumbo button {
+    margin-bottom: 10px;
+}
+
+.text-jumbo .fas {
+    font-size: 2.5rem;
+}
+
+.img-jumbo {
+    width: 50%;
+    position: relative;
+}
+
+.img-jumbo img {
+    width: 100%;
+    position: absolute;
 }
 
 
