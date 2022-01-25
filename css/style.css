@@ -11,6 +11,14 @@
     clear: both;
 }
 
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
 * {
     font-family: 'Open Sans', sans-serif;
 }
@@ -27,16 +35,32 @@
 /* HEADER */
 /* Container Navbar */
 .container-navbar {
-    width: 100%;    
+    width: 100%;
+    line-height: 50px;
+    padding: 15px 25px;
 }
 
-.logo-container {
-    
-}
-
-.navbar-container ul li {
+.container-navbar ul li {
     list-style: none;
     display: inline;
+    margin: 0 20px;
+    vertical-align: middle;
+}
+
+.logo-container img {
+    margin-right: 50px;
+    vertical-align: middle;
+}
+
+.button-container button {
+    margin-left: 20px;
+}
+
+.btn-blue {
+    border-style: none;
+    padding: 7px 20px;
+    background-color: #0061ff;
+    color: #ffffff;
 }
 
 
