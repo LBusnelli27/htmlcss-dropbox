@@ -15,16 +15,28 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
 
 
 /* HEADER */
 /* Container Navbar */
 .container-navbar {
-
+    width: 100%;    
 }
 
 .logo-container {
     
+}
+
+.navbar-container ul li {
+    list-style: none;
+    display: inline;
 }
 
 
