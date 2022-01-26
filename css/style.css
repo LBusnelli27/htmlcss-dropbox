@@ -251,6 +251,7 @@ main {
 
 .card-desc-full-button  {
     width: 19%;
+    vertical-align: top;
 }
 
 .card-desc-full-button button {
