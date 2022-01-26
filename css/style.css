@@ -261,7 +261,20 @@ main {
 
 /* Container Partner*/
 .container-partner {
+    margin: 300px auto;
+}
 
+.image-container {
+    width: 60%;
+}
+
+.text-container {
+    margin-top: 70px;
+    width: 40%;
+}
+
+.text-container h2 {
+    margin-bottom: 30px;
 }
 
 
