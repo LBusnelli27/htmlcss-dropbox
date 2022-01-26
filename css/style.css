@@ -158,25 +158,33 @@ main {
 }
 
 .subscription-card-container {
-    text-align: center;
+    min-width: 1000px;
 }
 
 .subscription-card {
-    width: 27%;
-    margin-right: 50px;
+    width: calc((100% / 3) - 47px);
+    min-width: 330px;
+    height: 70%;
+
+    margin-right: 70px;
+}
+
+.last-card-right {
+    margin-right: 0;
 }
 
 .card-target {
     padding: 10px 0px;
     border: 1px solid #E4E4E4;
+    text-align: center;
 }
 
-.card-target .fa-user {
+.card-target .far {
     margin-right: 5px;
 }
 
 .card-desc {
-    padding: 30px;
+    padding: 7%;
     border: 1px solid #E4E4E4;
 }
 
@@ -200,7 +208,7 @@ main {
 }
 
 .card-desc button {
-    width: 95%;
+    width: 100%;
     margin-top: 50px;
     margin-bottom: 20px;
 }
@@ -217,6 +225,7 @@ main {
 
 .card-desc ul{
     list-style: none;
+    margin-bottom: 150px;
 }
 
 .card-desc ul li {
@@ -225,6 +234,27 @@ main {
 
 .card-desc .fa-check {
     color: #0061ff;
+}
+
+.full-card {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.full-card .card-desc {
+    padding: 2%;
+}
+
+.card-desc-full {
+    width: 80%;
+}
+
+.card-desc-full-button  {
+    width: 19%;
+}
+
+.card-desc-full-button button {
+    margin: 0;
 }
 
 
