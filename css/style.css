@@ -261,7 +261,7 @@ main {
 
 /* Container Partner*/
 .container-partner {
-    margin: 300px auto;
+    margin-top: 300px;
 }
 
 .image-container {
@@ -295,7 +295,27 @@ main {
 
 /* Container Business Explain*/
 .container-business-explain {
+    margin-top: 100px;
+}
 
+.row-business-expl {
+    width: 100%;
+}
+
+.business-expl-card {
+    width: calc((100% / 3) - 57px);;
+}
+
+.business-expl-card img {
+    width: 100%;
+}
+
+.business-expl-card h3 {
+    font-size: 1.4rem;
+}
+
+.middle-card {
+    margin: 0 80px
 }
 
 
