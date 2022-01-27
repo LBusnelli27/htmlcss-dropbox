@@ -126,6 +126,22 @@ h3 {
     margin-left: 20px;
 }
 
+.dropdown-support:hover #ul-block-dropdown {
+    display: block;
+}
+
+#ul-block-dropdown:hover {
+    display: block;
+}
+
+#ul-block-dropdown {
+    display: none;
+}
+
+#ul-block-dropdown li {
+    display: block;
+}
+
 
 /* Container Jumbotron */
 .container-jumbotron {
