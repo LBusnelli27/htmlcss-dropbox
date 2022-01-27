@@ -418,6 +418,22 @@ main {
     margin-bottom: 40px;
 }
 
+/* Container Business Agency */
+
+.under-team-container {
+    padding: 6% 0;
+}
+
+.under-team-container h2 {
+    color: #61082b;
+}
+
+.under-team-container button {
+    vertical-align: middle;
+    border-style: none;
+    padding: 10px 70px;
+}
+
 
 /* Container FAQ Domande Frequenti*/
 .container-faq {
