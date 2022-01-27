@@ -437,19 +437,71 @@ main {
 
 /* Container FAQ Domande Frequenti*/
 .container-faq {
+    margin-top: 150px;
+}
 
+.border-top-gray {
+    border-top: 1px solid #e4e4e4;
+}
+
+.border-bottom-gray {
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.container-faq h2{
+    padding-bottom: 50px;
+}
+
+.question-faq h3, .question-faq i{
+    padding: 40px 0;
+    margin-bottom: 0;
 }
 
 
 
 /* FOOTER */
+footer {
+    margin-top: 200px;
+    background-color: #000000;
+}
+
 /* Top Part Footer */
 .top-footer {
+    padding-top: 70px;
+    margin-bottom: 100px;
+}
 
+.top-footer ul{
+    color: #ffffff;
+    list-style: none;
+}
+
+.padding-ul-left {
+    padding-left: 15%;
+}
+
+.padding-ul-right {
+    padding-right: 15%;
+}
+
+.padding-ul-center {
+    padding: 0 15%;
+}
+
+.top-footer ul li {
+    padding-bottom: 10px;
 }
 
 
+footer .underline {
+    margin-bottom: 0;
+    width: 5%;
+}
 /* Bottom Part Footer */
 .bottom-footer {
+    padding: 50px 0;
+}
 
+.bottom-footer span {
+    filter: invert(70%);
 }
