@@ -122,6 +122,7 @@ h3 {
     vertical-align: middle;
 }
 
+/* BONUS 2 */
 .button-container button {
     margin-left: 20px;
 }
@@ -141,6 +142,15 @@ h3 {
 #ul-block-dropdown li {
     display: block;
 }
+/* FINE BONUS 2 */
+
+/* BONUS 3 */
+.container-navbar li:hover {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 28px;
+}
+/* FINE BONUS 3 */
+
 
 
 /* Container Jumbotron */
