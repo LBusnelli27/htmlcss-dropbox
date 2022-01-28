@@ -150,12 +150,44 @@ h3 {
 /* FINE BONUS 2 */
 
 /* BONUS 3 */
-.container-navbar li:hover {
-    border-bottom: 2px solid #000000;
-    padding-bottom: 28px;
+.nav-link {
+    text-decoration: none;
+    padding: 10px 0px;
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.nav-link {
+    color: #000000;
+}
+
+.nav-link:hover {
+    opacity: 1;
+}
+
+.nav-link::before {
+    transition: 150ms;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: #000000;
+}
+
+.nav-link:visited {
+    color: #000000;
+}
+
+.nav-link-grow-up::before {
+    height: 0%;
+    width: 100%;
+    bottom: -15px;
+}
+
+.nav-link-grow-up:hover::before {
+    height: 2px;
 }
 /* FINE BONUS 3 */
-
 
 
 /* Container Jumbotron */
