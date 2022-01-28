@@ -294,6 +294,10 @@ main {
     padding: 2%;
 }
 
+.card-desc-full-height {
+    height: 400px;
+}
+
 .card-desc-full {
     width: 80%;
 }
