@@ -538,6 +538,17 @@ main {
     margin-bottom: 0;
 }
 
+/* BONUS 5 */
+.hover-faq {
+    padding-bottom: 30px;
+    width: 70%;
+    display: none;
+}
+
+.question-faq:hover .hover-faq {
+    display: inline-block;
+}
+
 
 
 /* FOOTER */
